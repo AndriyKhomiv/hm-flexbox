@@ -40,26 +40,16 @@
     align-items: center;
     text-decoration: none;
     transition: 0.3s;
+    opacity: 0.5;
 }
 .lern_more_button:hover {
-    color: white;
-    background: white;
-    border: 2px  solid white;
-    border-radius: 40%;
-    width: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+    opacity: 1;
 }
 
 .button {
     text-decoration: none;
 }
-.button:hover {
-    text-decoration: none;
-    color: black;
-}    
+    
 h3 {
     padding: 0;
     margin: 0;
@@ -71,7 +61,7 @@ h3 {
     font-size: 30px;
     color: white;
 }
-.aditional_text p {
+.additional_text p {
     text-align: center;
     margin: 0;
     padding: 0;
@@ -91,8 +81,9 @@ h3 {
     opacity: 0.3;
 }
 .arrow a:hover {
-    background-color: grey;   
+    background: grey;
 }
+
 div a {
     text-decoration: none;
     color: white;
@@ -101,7 +92,7 @@ p {
     margin: 0;
     padding: 5px;
 }
-.alecto_aditional_text {
+.alecto_additional_text {
     opacity: 0.7;
 }
 
